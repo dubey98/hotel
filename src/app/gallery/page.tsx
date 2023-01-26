@@ -1,7 +1,9 @@
+"use client";
+
 import React, { useState, useEffect } from "react";
-import { useMediaQuery } from "react-responsive";
-import FullScreenImageModal from "../components/FullScreenImageModal";
-import images from "./../data/images.json";
+// import { useMediaQuery } from "react-responsive";
+import FullScreenImageModal from "../../components/FullScreenImageModal";
+import images from "../../data/images.json";
 
 const defaultProps = {
   title: "A Few Sneak Peeks",
@@ -112,9 +114,9 @@ const defaultProps = {
 };
 
 function Gallery({ images, title }) {
-  const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
-  const isTablet = useMediaQuery({ query: "(max-width: 1024px)" });
-  const isDesktop = useMediaQuery({ query: "(max-width: 1280px)" });
+  const isMobile =false // useMediaQuery({ query: "(max-width: 640px)" });
+  const isTablet =false// useMediaQuery({ query: "(max-width: 1024px)" });
+  const isDesktop =true// useMediaQuery({ query: "(max-width: 1280px)" });
 
   const [imageArray, setImageArray] = useState([]);
   const [modalActive, setModalActive] = useState(false);

@@ -1,7 +1,9 @@
+"use client";
+
 import React, { useState } from "react";
-import RestoHero from "../components/restaurant/RestoHero";
-import Menu from "../components/restaurant/Menu";
-import menus from "./../data/defaultProps/menus.json";
+import RestoHero from "../../components/restaurant/RestoHero";
+import Menu from "../../components/restaurant/Menu";
+import menus from "../../data/defaultProps/menus.json";
 
 const defaultProps = {
   menus: menus,

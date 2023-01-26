@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import Link from "next/link";
 import images from "./../../data/images.json";
 
 function RestoHero() {
@@ -19,7 +20,7 @@ function RestoHero() {
           </div>
           <div className="flex justify-center space-x-6 p-4">
             <button className="p-2 px-4 hover:bg-[#2b1707] border-2 border-[#110702] rounded-full">
-              <Link to="#menu">
+              <Link href="#menu">
                 <div>Explore Menu</div>
               </Link>
             </button>

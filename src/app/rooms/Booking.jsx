@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import ProgressSteps from "../components/utilities/ProgressSteps";
-import CreateBooking from "../components/checkout/CreateBooking";
-import ReviewBooking from "../components/checkout/ReviewBooking";
+import ProgressSteps from "../../components/utilities/ProgressSteps";
+import CreateBooking from "../../components/checkout/CreateBooking";
+import ReviewBooking from "../../components/checkout/ReviewBooking";
 import { useNavigate } from "react-router-dom";
 
 const defaultProps = {
