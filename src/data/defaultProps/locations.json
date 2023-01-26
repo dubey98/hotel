@@ -1,0 +1,23 @@
+[
+  {
+    "title": "The Jungle Safari",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.onsequuntur asperiores officia totam cum? Nihil veniam, veritatis",
+    "buttonText": "Book Now",
+    "image": "location1",
+    "slug": "the-jungle-safari"
+  },
+  {
+    "title": "The City Inn",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.onsequuntur asperiores officia totam cum? Nihil veniam, veritatis",
+    "buttonText": "Book Now",
+    "image": "location2",
+    "slug": "the-city-inn"
+  },
+  {
+    "title": "Hotel Europa",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.onsequuntur asperiores officia totam cum? Nihil veniam, veritatis",
+    "buttonText": "Book Now",
+    "image": "location3",
+    "slug": "hotel-europa"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Deluxe",
+    "description": "Experience the new luxury with our deluxe rooms. perfect stays for your perfect vacation",
+    "buttonText": "View Details",
+    "imageSrc": "room1",
+    "imageAlt": "room deluxe",
+    "price": {
+      "actualPrice": 2199,
+      "discountedPrice": 1299
+    },
+    "buttons": [
+      { "text": "View Details", "navigateTo": "/room-details" },
+      { "text": "Book Now", "navigateTo": "/book" }
+    ],
+    "tags": ["2 Adults, 2 Children", "15.75 sq.ft."]
+  },
+  {
+    "title": "Deluxe",
+    "description": "Experience the new luxury with our deluxe rooms. perfect stays for your perfect vacation",
+    "buttonText": "View Details",
+    "imageSrc": "room1",
+    "imageAlt": "room deluxe",
+    "price": {
+      "actualPrice": 2199,
+      "discountedPrice": 1299
+    },
+    "buttons": [
+      { "text": "View Details", "navigateTo": "/room-details" },
+      { "text": "Book Now", "navigateTo": "/book" }
+    ],
+    "tags": ["Capacity: 2 Adults, 2 Children", "Area: 15.75 sq.ft."]
+  },
+  {
+    "title": "Deluxe",
+    "description": "Experience the new luxury with our deluxe rooms. perfect stays for your perfect vacation",
+    "buttonText": "View Details",
+    "imageSrc": "room1",
+    "imageAlt": "room deluxe",
+    "price": {
+      "actualPrice": 2199,
+      "discountedPrice": 1299
+    },
+    "buttons": [
+      { "text": "View Details", "navigateTo": "/room-details" },
+      { "text": "Book Now", "navigateTo": "/book" }
+    ],
+    "tags": ["Capacity: 2 Adults, 2 Children", "Area: 15.75 sq.ft."]
+  },
+  {
+    "title": "Deluxe",
+    "description": "Experience the new luxury with our deluxe rooms. perfect stays for your perfect vacation",
+    "buttonText": "View Details",
+    "imageSrc": "room1",
+    "imageAlt": "room deluxe",
+    "price": {
+      "actualPrice": 2199,
+      "discountedPrice": 1299
+    },
+    "buttons": [
+      { "text": "View Details", "navigateTo": "/room-details" },
+      { "text": "Book Now", "navigateTo": "/book" }
+    ],
+    "tags": ["Capacity: 2 Adults, 2 Children", "Area: 15.75 sq.ft."]
+  },
+  {
+    "title": "Deluxe",
+    "description": "Experience the new luxury with our deluxe rooms. perfect stays for your perfect vacation",
+    "buttonText": "View Details",
+    "imageSrc": "room1",
+    "imageAlt": "room deluxe",
+    "price": {
+      "actualPrice": 2199,
+      "discountedPrice": 1299
+    },
+    "buttons": [
+      { "text": "View Details", "navigateTo": "/room-details" },
+      { "text": "Book Now", "navigateTo": "/book" }
+    ],
+    "tags": ["Capacity: 2 Adults, 2 Children", "Area: 15.75 sq.ft."]
+  },
+  {
+    "title": "Deluxe",
+    "description": "Experience the new luxury with our deluxe rooms. perfect stays for your perfect vacation",
+    "buttonText": "View Details",
+    "imageSrc": "room1",
+    "imageAlt": "room deluxe",
+    "price": {
+      "actualPrice": 2199,
+      "discountedPrice": 1299
+    },
+    "buttons": [
+      { "text": "View Details", "navigateTo": "/room-details" },
+      { "text": "Book Now", "navigateTo": "/book" }
+    ],
+    "tags": ["Capacity: 2 Adults, 2 Children", "Area: 15.75 sq.ft."]
+  }
+]

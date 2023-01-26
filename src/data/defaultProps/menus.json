@@ -1,0 +1,98 @@
+{
+  "Break Fast": [
+    {
+      "title": "BreakFast Category 1",
+      "items": [
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar"
+      ]
+    },
+    {
+      "title": "BreakFast Categgory 2",
+      "items": [
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar"
+      ]
+    }
+  ],
+  "Lunch": [
+    {
+      "title": "Lunch Category 1",
+      "items": [
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar"
+      ]
+    },
+    {
+      "title": "Lunch Categgory 2",
+      "items": [
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar"
+      ]
+    }
+  ],
+  "Dinner": [
+    {
+      "title": "Dinner Category 1",
+      "items": [
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar"
+      ]
+    },
+    {
+      "title": "Dinner Categgory 2",
+      "items": [
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar",
+        "Mysore Dosa",
+        "SandWich",
+        "Poha",
+        "idli/Sambhar"
+      ]
+    }
+  ]
+}

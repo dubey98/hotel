@@ -1,0 +1,759 @@
+{
+  "0": {
+    "title": "Jungle Safari",
+    "shortDescription": "A stay in nature's lap",
+    "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+    "address": "ChintanGadh, Narmada Lake, Raipur,Chhattisgarh, PIN: 496751",
+    "contact": ["9999987878", "9898986767"],
+    "images": [
+      {
+        "src": "https://i.ibb.co/yqdZT7K/location-1.jpg",
+        "alt": "Hotel City Inn"
+      }
+    ],
+
+    "rooms": {
+      "std": {
+        "title": "Standard",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 2,
+        "Children": 2,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 10.75
+      },
+      "dlx": {
+        "title": "Deluxe Room",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 2,
+        "Children": 2,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 10.76
+      },
+      "suite": {
+        "title": "Suite room",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 4,
+        "Children": 4,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 15.67
+      }
+    }
+  },
+  "1": {
+    "title": "The Continental",
+    "shortDescription": "A quiet place in a crowded city",
+    "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+    "address": "ChintanGadh, Narmada Lake, Raipur,Chhattisgarh, PIN: 496751",
+    "contact": ["9999987878", "9898986767"],
+    "images": [
+      {
+        "src": "https://i.ibb.co/ysVnsrD/location-3.jpg",
+        "alt": "Hotel City Inn"
+      }
+    ],
+    "rooms": {
+      "std": {
+        "title": "Standard",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 2,
+        "Children": 2,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 10.75
+      },
+      "dlx": {
+        "title": "Deluxe Room",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 2,
+        "Children": 2,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 10.76
+      },
+      "suite": {
+        "title": "Suite room",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 4,
+        "Children": 4,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 15.67
+      }
+    }
+  },
+  "2": {
+    "title": "Sea Side",
+    "shortDescription": "Beautiful sunsets and crashing waves",
+    "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+    "address": "ChintanGadh, Narmada Lake, Raipur,Chhattisgarh, PIN: 496751",
+    "contact": ["9999987878", "9898986767"],
+    "images": [
+      {
+        "src": "https://i.ibb.co/WWpVftb/location-2.jpg",
+        "alt": "Hotel Jungle Safari"
+      }
+    ],
+    "rooms": {
+      "std": {
+        "title": "Standard",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 2,
+        "Children": 2,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 10.75
+      },
+      "dlx": {
+        "title": "Deluxe Room",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 2,
+        "Children": 2,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 10.76
+      },
+      "suite": {
+        "title": "Suite room",
+        "shortDescription": "A standard room with all basis amenities",
+        "longDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Rerum et explicabo earum! Doloremque fuga temporibus eius excepturi placeat provident iste ullam nam a enim eaque amet aliquid, deleniti nemo. Quaerat.",
+        "amenities": [
+          {
+            "shortName": "AC",
+            "longName": "Air Conditioner",
+            "description": "Air Conditioned Rooms",
+            "icon": "<i class='fas fa-fan'></i>"
+          },
+          {
+            "shortName": "Coffee",
+            "longName": "Coffee Kettle",
+            "description": "24x7 Cafes and Kettle Provided",
+            "icon": "<i class='fas fa-coffee'></i>"
+          },
+          {
+            "shortName": "TV",
+            "longName": "Television",
+            "description": "Wide Screen TV",
+            "icon": "<i class='fas fa-tv'></i>"
+          },
+          {
+            "shortName": "Bar",
+            "longName": "Mini Bar",
+            "description": "Mini Bar Provided",
+            "icon": "<i class='fas fa-glass-cheers'></i>"
+          },
+          {
+            "shortName": "Bed",
+            "longName": "Queen Size Bed",
+            "description": "1 Queen Size Bed",
+            "icon": "<i class='fas fa-bed'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-wifi'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-shower'></i>"
+          },
+          {
+            "shortName": "WiFi",
+            "longName": "WiFi Coverage",
+            "description": "WiFi Coverage on the whole property",
+            "icon": "<i class='fas fa-couch'></i>"
+          }
+        ],
+        "Adults": 4,
+        "Children": 4,
+        "images": [
+          {
+            "src": "https://i.ibb.co/2669gQ5/room-3.jpg",
+            "alt": "a hotel room"
+          },
+          {
+            "src": "https://i.ibb.co/2ng6x3k/room-2.jpg",
+            "alt": "A Hotel Room"
+          },
+          {
+            "src": "https://i.ibb.co/rsMKdZb/room-1.jpg",
+            "alt": "A Hotel Room"
+          }
+        ],
+        "price": {
+          "normal": 2500,
+          "seasonal": 3000,
+          "discountPercent": 20
+        },
+        "availableRooms": 5,
+        "totalRooms": 10,
+        "area": 15.67
+      }
+    }
+  }
+}
