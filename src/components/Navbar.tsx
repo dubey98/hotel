@@ -36,7 +36,7 @@ function Navbar() {
       }
     >
       <div className="max-w-6xl w-full flex flex-row justify-between p-4 md:hidden">
-        <Link to={"/"} href="/">
+        <Link href="/">
           <div className="uppercase">brandName</div>
         </Link>
         <div
@@ -57,24 +57,24 @@ function Navbar() {
         onClick={() => setActive(false)}
       >
         <div className="uppercase hidden md:block md:flex-grow">
-          <Link to="/" href={"/"}>brandName</Link>
+          <Link href={"/"}>brandName</Link>
         </div>
-        <Link to="/" href={"/"}>
+        <Link href={"/"}>
           <div className="px-6">Home</div>
         </Link>
-        <Link to={"/rooms"} href="/rooms">
+        <Link href="/rooms">
           <div className="px-6">Rooms</div>
         </Link>
-        <Link to={"gallery"} href="/gallery">
+        <Link href="/gallery">
           <div className="px-6">Gallery</div>
         </Link>
-        <Link to={"restaurant"} href="/restaurant">
+        <Link href="/restaurant">
           <div className="px-6">Restaurant</div>
         </Link>
-        <Link to="/about-us" href="/about-us">
+        <Link href="/about-us">
           <div className="px-6">About Us</div>
         </Link>
-        <Link to={"contact-us"} href="contact-us">
+        <Link href="contact-us">
           <div className="px-6">Contact Us</div>
         </Link>
       </div>
