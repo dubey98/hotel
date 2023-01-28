@@ -10,6 +10,7 @@ import Around from "../components/Around";
 import Locations from "../components/Locations";
 import Testimonials from "../components/Testimonials";
 import AboutusHome from "../components/AboutusHome";
+import shoeImg from "./../../public/shoes.png";
 
 function HomePage() {
   return (
@@ -66,12 +67,7 @@ function HomePage() {
                 aria-hidden="true"
                 className="absolute inset-0 m-auto w-[30rem] h-[30rem] rounded-full bg-yellow-200"
               ></div>
-              <Image
-                src="/shoes.png"
-                className="relative ml-auto"
-                alt=""
-                fill
-              />
+              <Image src={shoeImg} className="relative ml-auto" />
             </div>
           </div>
         </div>
