@@ -1,5 +1,5 @@
 import React from "react";
-import Carousal, { CarousalItem } from "../components/utilities/Carousal";
+import Carousal, { CarousalItem } from "./utilities/Carousal";
 
 const defaultProps = {
   testimonies: [

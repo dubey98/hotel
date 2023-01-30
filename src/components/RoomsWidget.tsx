@@ -1,6 +1,6 @@
 import React from "react";
 import Room from "./rooms/Room";
-import roomList from "./../data/defaultProps/roomList.json";
+import roomList from "../data/defaultProps/roomList.json";
 
 const defaultProps = {
   title: "Our Rooms",
