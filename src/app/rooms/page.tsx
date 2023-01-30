@@ -10,7 +10,7 @@ function Rooms() {
   const params = new URLSearchParams(location.search);
 
   return (
-    <div>
+    <div className="py-40">
       <div className=" max-w-6xl mx-auto p-2">
         <SearchForm
           propCheckIn={params.get("checkin")}

@@ -1,8 +1,14 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 const links = [
+  {
+    displayText: "Home",
+    href: "/",
+  },
   {
     displayText: "Rooms",
     href: "/rooms",
@@ -17,7 +23,7 @@ const links = [
   },
   {
     displayText: "About Us",
-    href: "/about-us",
+    href: "/about",
   },
   {
     displayText: "Contact Us",
@@ -36,7 +42,7 @@ function Navbar() {
             id="toggle_nav"
             className="peer hidden"
           />
-          <div className="w-full flex justify-between md:w-max md:px-0">
+          <div className="w-full flex justify-between lg:w-max md:px-0">
             <Link href="#" aria-label="logo">
               <Image
                 src="/logo.svg"
@@ -47,7 +53,7 @@ function Navbar() {
               />
             </Link>
 
-            <div className="flex items-center md:hidden max-h-10">
+            <div className="flex items-center lg:hidden max-h-10">
               <label
                 role="button"
                 htmlFor="toggle_nav"
@@ -70,15 +76,15 @@ function Navbar() {
           <label
             role="button"
             htmlFor="toggle_nav"
-            className="fixed w-full z-30 h-full top-0 left-0 bg-gray-700 bg-opacity-40 hidden peer-checked:block md:peer-checked:hidden"
+            className="fixed w-full z-30 h-full top-0 left-0 bg-gray-700 bg-opacity-40 hidden peer-checked:block lg:peer-checked:hidden"
           ></label>
 
           <div
-            className="flex z-50 flex-col md:flex-row justify-between 
-                    items-center gap-y-4 p-6 bg-white dark:bg-gray-800 md:w-8/12 
-                    md:gap-y-4 md:p-0 
-                    md:bg-transparent lg:w-7/12 fixed top-0 -left-full transition-all duration-500 peer-checked:left-0 max-w-sm h-full 
-                    md:left-0 md:h-auto w-4/5 md:max-w-none md:relative lg:first-letter:top-0"
+            className="flex z-50 flex-col fixed lg:flex-row justify-between 
+                    items-center gap-y-4 p-6 bg-white dark:bg-gray-800 lg:w-8/12 
+                    lg:gap-y-4 lg:p-0 
+                    lg:bg-transparent xl:w-7/12  top-0 -left-full transition-all duration-500 peer-checked:left-0 max-w-sm h-full 
+                    lg:left-0 lg:h-auto w-4/5 lg:max-w-none lg:relative xl:first-letter:top-0"
           >
             <div className="flex md:hidden w-full pb-5">
               <Link href="#" aria-label="logo">
@@ -92,14 +98,12 @@ function Navbar() {
               </Link>
             </div>
             <div className="block w-full h-full md:h-auto">
-              <ul className="space-y-8 tracking-wide font-medium md:flex md:space-y-0">
+              <ul className="space-y-8 tracking-wide font-medium lg:flex lg:space-y-0">
                 {links.map((link, index) => {
                   return (
                     <li key={index}>
-                      <Link href={link.href} className="block md:px-3 group">
-                        <div
-                          className="relative text-gray-600 before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100"
-                        >
+                      <Link href={link.href} className="block lg:px-3 group">
+                        <div className="relative text-gray-50 before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
                           <span className="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300">
                             {link.displayText}
                           </span>
@@ -111,20 +115,11 @@ function Navbar() {
               </ul>
             </div>
 
-            <div className="w-full gap-y-4 md:w-max md:gap-y-0 md:gap-x-4 flex md:flex-row flex-col">
-              {/* <button
-                type="button"
-                title="Login"
-                className="group w-full py-3 px-6 text-center transition dark:active:bg-yellow-800 dark:focus:bg-yellow-900 active:bg-yellow-200 focus:bg-yellow-100 sm:w-max"
-              >
-                <span className="block text-gray-700 dark:text-gray-300 font-semibold group-focus:text-yellow-700 dark:group-focus:text-yellow-100">
-                  Login
-                </span>
-              </button> */}
+            <div className="w-full gap-y-4 md:w-max lg:gap-y-0 lg:gap-x-4 flex lg:flex-row flex-col items-center">
               <button
                 type="button"
                 title="Start booking"
-                className="w-full py-3 px-6 text-center transition dark:bg-gray-700 bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 md:w-max"
+                className="w-full py-3 px-6 text-center transition dark:bg-gray-700 bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 lg:w-max"
               >
                 <span className="block text-white font-semibold">Book now</span>
               </button>
