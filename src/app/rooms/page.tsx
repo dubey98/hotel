@@ -1,36 +1,23 @@
-"use client"
+"use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import RoomList from "../../components/rooms/RoomList";
-import SearchForm from "../../components/SearchForm";
-// import { useLocation } from "react-router-dom";
 
 function Rooms() {
-  const location ={}// useLocation();
-  const params = new URLSearchParams(location.search);
-
   return (
-    <div className="py-40">
-      <div className=" max-w-6xl mx-auto p-2">
-        <SearchForm
-          propCheckIn={params.get("checkin")}
-          propCheckOut={params.get("checkout")}
-          propAdults={params.get("adults")}
-          propChildren={params.get("children")}
-        />
+    <div>
+      <div className="flex flex-col pt-28 pb-8 items-center justify-center">
+        <p className="text-xl font-semiboldl italic">Accomodations</p>
+        <p className="text-center max-w-4xl p-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+          explicabo exercitationem neque! Veniam eveniet laborum labore
+          perferendis ducimus ea itaque nemo illum soluta placeat. Molestiae
+          facere tempora at possimus? Rerum!
+        </p>
       </div>
-      <RoomsHero />
       <div className="max-w-6xl mx-auto">
         <RoomList />
       </div>
-    </div>
-  );
-}
-
-function RoomsHero() {
-  return (
-    <div className="bg-sky-100">
-      <div className="max-w-6xl text-xl mx-auto"></div>
     </div>
   );
 }

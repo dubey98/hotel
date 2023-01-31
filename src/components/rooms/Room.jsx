@@ -1,70 +1,51 @@
 import React from "react";
-import IconList from "./IconList";
-import Price from "./Price";
-import CTAButtons from "./CTAButtons";
-import TagList from "./TagList";
+import Link from "next/link";
+import Image from "next/image";
 import images from "./../../data/images.json";
-import Carousal, { CarousalItem } from "../utilities/Carousal";
+import room2Img from "../../../public/room-2.jpg";
 
-function Room({ room, widget }) {
-  function resolveImage(imageName) {
-    return imageName === "room1" ? images["room-1"] : images["room-2"];
-  }
-
+function Room() {
   return (
     <div className="p-4">
-      <div
-        className={
-          "p-2 max-w-3xl mx-auto shadow-lg border-2 rounded-lg bg-white " +
-          (widget ? "" : " sm:flex")
-        }
-      >
-        <div className=" sm:basis-1/3 min-h-[175px] sm:min-h-[250px]">
-          <Carousal>
-            <CarousalItem>
-              <div
-                className=" bg-blue-400 min-h-[250px] min-w-full bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage: `url(${resolveImage("room1")})`,
-                }}
-              ></div>
-            </CarousalItem>
-            <CarousalItem>
-              <div
-                className=" bg-blue-400 min-h-[250px] min-w-full bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage: `url(${resolveImage("room2")})`,
-                }}
-              ></div>
-            </CarousalItem>
-          </Carousal>
-        </div>
-        <div className="px-4 py-2 space-y-2 sm:basis-2/3 sm:h-full">
-          {!widget && <TagList tags={room.tags} />}
-          <TitleDescription
-            title={room.title}
-            description={room.description}
-            widget={widget}
+      <div className="mx-auto max-w-5xl shadow-md bg-gray-50 text-gray-800 md:flex md:flex-row">
+        <div className="space-y-2 md:w-2/5">
+          <Image
+            src={room2Img}
+            alt=""
+            className="block object-cover object-center w-full rounded-md h-full bg-gray-500"
           />
-          {!widget && <IconList icons={room.iconList} />}
-          {!widget && <Price price={room.price} />}
-          <div className={widget ? "flex justify-center" : ""}>
-            <CTAButtons buttons={room.buttons} />
+        </div>
+        <div className="space-y-2 p-4 text-center md:w-3/5 flex flex-col justify-center">
+          <Link rel="noopener noreferrer" href="#" className="block">
+            <h3 className="text-xl font-semibold text-pink-600 uppercase py-2">
+              One Bedroom Lake View Suite
+            </h3>
+          </Link>
+          <p className="leading-snug text-gray-600 py-1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat,
+            excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repellat, excepturi.
+          </p>
+          <div className="">
+
+          </div>
+          <div>
+            <button
+              title="Learn More"
+              type="button"
+              className="px-4 py-2 m-2 text-lg font-semibold rounded border border-gray-700 bg-gray-100 text-gray-700"
+            >
+              Learn More
+            </button>
+            <button
+              title="Reserve"
+              type="button"
+              className="uppercase px-4 py-2 m-2 text-lg font-semibold rounded text-gray-100 bg-gray-700"
+            >
+              Reserve
+            </button>
           </div>
         </div>
-      </div>
-    </div>
-  );
-}
-
-function TitleDescription({ title, description, widget }) {
-  return (
-    <div>
-      <div className={"text-xl font-semibold " + (widget ? "text-center" : "")}>
-        {title}
-      </div>
-      <div className={"text-sm font-light " + (widget ? "text-center" : "")}>
-        {description}
       </div>
     </div>
   );

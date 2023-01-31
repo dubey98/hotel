@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import HeroImg from "../../public/hero-2.jpg";
 import LobbyImg from "../../public/lobby.jpg";
 import RoomsWidget from "../components/RoomsWidget";
@@ -27,18 +28,22 @@ function HomePage() {
               Discover the inner you
             </p>
             <div className="flex flex-wrap justify-center">
-              <button
-                type="button"
-                className="px-8 py-3 m-2 text-lg font-semibold rounded bg-gray-100 text-gray-900"
-              >
-                Book Now
-              </button>
-              <button
-                type="button"
-                className="px-8 py-3 m-2 text-lg border rounded border-gray-300 text-gray-50"
-              >
-                Explore Gallery
-              </button>
+              <Link href={"/rooms"}>
+                <button
+                  type="button"
+                  className="px-8 py-3 m-2 text-lg font-semibold rounded bg-gray-100 text-gray-900"
+                >
+                  Book Now
+                </button>
+              </Link>
+              <Link href={"/gallery"}>
+                <button
+                  type="button"
+                  className="px-8 py-3 m-2 text-lg border rounded border-gray-300 text-gray-50"
+                >
+                  Explore Gallery
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -66,10 +71,10 @@ function HomePage() {
           </p>
         </div>
       </section>
-      <section className="min-h-screen container">
+      <section className="min-h-screen container mx-auto">
         <RoomsWidget />
       </section>
-      <section className="min-h-screen container flex items-center justify-center">
+      <section className="min-h-screen container flex items-center justify-center mx-auto">
         <TestiMonials />
       </section>
     </div>
