@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const links = [
   {
@@ -32,6 +33,9 @@ const links = [
 ];
 
 function Navbar() {
+  const pathname = usePathname();
+  const textColor = pathname === "/" ? "lg:text-gray-50" : "lg:text-gray-700";
+
   return (
     <nav className="absolute w-full">
       <div className="container m-auto px-6 md:px-12 lg:px-7">
@@ -103,7 +107,12 @@ function Navbar() {
                   return (
                     <li key={index}>
                       <Link href={link.href} className="block lg:px-3 group">
-                        <div className="relative text-gray-600 lg:text-gray-50 before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                        <div
+                          className={
+                            "relative text-gray-600 before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100 " +
+                            textColor
+                          }
+                        >
                           <span className="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300">
                             {link.displayText}
                           </span>

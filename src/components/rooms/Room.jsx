@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import images from "./../../data/images.json";
 import room2Img from "../../../public/room-2.jpg";
+import { BiBed, BiArea, BiGroup } from "react-icons/bi";
 
 function Room() {
   return (
@@ -26,8 +26,25 @@ function Room() {
             excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Repellat, excepturi.
           </p>
-          <div className="">
-
+          <div className="flex flex-row w-full justify-center py-2 space-x-2">
+            <div className="flex flex-col p-2 h-16 w-28 bg-gray-100">
+              <div className="flex items-center justify-center h-8">
+                <BiBed />
+              </div>
+              <div>Queen Bed</div>
+            </div>
+            <div className="flex flex-col p-2 h-16 w-28 bg-gray-100">
+              <div className="flex items-center justify-center h-8">
+                <BiGroup />
+              </div>
+              <div>Four Guests</div>
+            </div>
+            <div className="flex flex-col p-2 h-16 w-28 bg-gray-100">
+              <div className="flex items-center justify-center h-8">
+                <BiArea />
+              </div>
+              <div>10 m2</div>
+            </div>
           </div>
           <div>
             <button
