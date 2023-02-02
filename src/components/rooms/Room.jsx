@@ -47,20 +47,24 @@ function Room() {
             </div>
           </div>
           <div>
-            <button
-              title="Learn More"
-              type="button"
-              className="px-4 py-2 m-2 text-lg font-semibold rounded border border-gray-700 bg-gray-100 text-gray-700"
-            >
-              Learn More
-            </button>
-            <button
-              title="Reserve"
-              type="button"
-              className="uppercase px-4 py-2 m-2 text-lg font-semibold rounded text-gray-100 bg-gray-700"
-            >
-              Reserve
-            </button>
+            <Link href="/rooms/one-bedroom-suite">
+              <button
+                title="Learn More"
+                type="button"
+                className="px-4 py-2 m-2 text-lg font-semibold rounded border border-gray-700 bg-gray-100 text-gray-700"
+              >
+                Learn More
+              </button>
+            </Link>
+            <Link href={"/book"}>
+              <button
+                title="Reserve"
+                type="button"
+                className="uppercase px-4 py-2 m-2 text-lg font-semibold rounded text-gray-100 bg-gray-700"
+              >
+                Reserve
+              </button>
+            </Link>
           </div>
         </div>
       </div>

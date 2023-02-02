@@ -1,6 +1,5 @@
 import React from "react";
 import Room from "./Room";
-import RoomFilters from "../RoomFilters";
 import roomList from "../../data/defaultProps/roomList.json";
 
 const defaultProps = {

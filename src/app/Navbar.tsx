@@ -85,7 +85,7 @@ function Navbar() {
 
           <div
             className="flex z-50 flex-col fixed lg:flex-row justify-between 
-                    items-center gap-y-4 p-6 bg-white dark:bg-gray-800 lg:w-8/12 
+                    items-center gap-y-4 p-6 bg-white lg:w-8/12 
                     lg:gap-y-4 lg:p-0 
                     lg:bg-transparent xl:w-7/12  top-0 -left-full transition-all duration-500 peer-checked:left-0 max-w-sm h-full 
                     lg:left-0 lg:h-auto w-4/5 lg:max-w-none lg:relative xl:first-letter:top-0"
@@ -128,9 +128,9 @@ function Navbar() {
               <button
                 type="button"
                 title="Start booking"
-                className="w-full py-3 px-6 text-center transition dark:bg-gray-700 bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 lg:w-max"
+                className="w-full py-3 px-6 text-center transition dark:bg-white dark:text-black bg-gray-900 text-white hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 lg:w-max"
               >
-                <span className="block text-white font-semibold">Book now</span>
+                <span className="block font-semibold">Book now</span>
               </button>
             </div>
           </div>
