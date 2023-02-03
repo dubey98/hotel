@@ -4,7 +4,7 @@ import ContactForm from "../../components/ContactForm";
 function ContactUs() {
   return (
     <section className="">
-      <div className="p-12 text-4xl font-semibold text-center">Contact Us</div>
+      <div className="p-12 pt-24 text-4xl font-semibold text-center">Contact Us</div>
       <div className="max-w-6xl mx-auto">
         <ContactMeans />
         <div className="p-4 flex flex-col sm:flex-row">

@@ -71,9 +71,6 @@ function HomePage() {
           </p>
         </div>
       </section>
-      <section className="min-h-screen container mx-auto">
-        <RoomsWidget />
-      </section>
       <section className="min-h-screen container flex items-center justify-center mx-auto">
         <TestiMonials />
       </section>
