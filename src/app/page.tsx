@@ -5,8 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroImg from "../../public/hero-2.jpg";
 import LobbyImg from "../../public/lobby.jpg";
-import RoomsWidget from "../components/RoomsWidget";
-import TestiMonials from "../components/Testimonials";
+import TestimonialsV2 from "@/components/TestimonialsV2";
 
 function HomePage() {
   return (
@@ -72,7 +71,7 @@ function HomePage() {
         </div>
       </section>
       <section className="min-h-screen container flex items-center justify-center mx-auto">
-        <TestiMonials />
+        <TestimonialsV2 />
       </section>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
 export function CarousalItem({ children, width }) {
   return (
@@ -41,7 +42,7 @@ function Carousal({ children, sideButtons, bottomButtons }) {
           className="absolute opacity-50 z-50 top-1/2 left-0 -mt-5 p-2 text-2xl border-2 border-black shadow-lg h-12 w-12 flex justify-center items-center rounded-full mx-2"
           onClick={() => updateIndex(index - 1)}
         >
-          <i className="fas fa-angle-left"></i>
+          <BiChevronLeft />
         </button>
       )}
       {sideButtons && (
@@ -49,7 +50,7 @@ function Carousal({ children, sideButtons, bottomButtons }) {
           className="absolute opacity-50 z-50 top-1/2 right-0 -mt-5 p-2 text-2xl border-2 border-black shadow-lg h-12 w-12 flex justify-center items-center rounded-full mx-2"
           onClick={() => updateIndex(index + 1)}
         >
-          <i className="fas fa-angle-right"></i>
+          <BiChevronRight />
         </button>
       )}
       <div

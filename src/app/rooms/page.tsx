@@ -6,7 +6,7 @@ import RoomList from "../../components/rooms/RoomList";
 function Rooms() {
   return (
     <div>
-      <div className="flex flex-col pt-28 pb-8 items-center justify-center">
+      <div className="flex flex-col pt-36 pb-8 items-center justify-center">
         <p className="text-xl font-semiboldl italic">Accomodations</p>
         <p className="text-center max-w-4xl p-4">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo

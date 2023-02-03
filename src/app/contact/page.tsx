@@ -1,10 +1,13 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm";
+import { BiPhoneCall, BiMap, BiEnvelope } from "react-icons/bi";
 
 function ContactUs() {
   return (
-    <section className="">
-      <div className="p-12 pt-24 text-4xl font-semibold text-center">Contact Us</div>
+    <section className="bg-gray-100">
+      <div className="p-12 pt-36 text-4xl font-semibold text-center">
+        Contact Us
+      </div>
       <div className="max-w-6xl mx-auto">
         <ContactMeans />
         <div className="p-4 flex flex-col sm:flex-row">
@@ -23,30 +26,38 @@ function ContactUs() {
 function ContactMeans() {
   return (
     <div className="p-2 space-y-2 sm:flex sm:space-y-0 sm:space-x-2 md:max-w-4xl md:mx-auto">
-      <div className="w-full p-2 hover:shadow-md flex min-h-[85px] border rounded-lg">
+      <div className="w-full p-2 hover:shadow-md flex min-h-[85px] border rounded-lg bg-white">
         <div className="text-xl flex items-center px-4">
-          <i className="fas fa-phone-alt"></i>
+          <BiPhoneCall />
         </div>
         <div className="font-light p-2 flex flex-col justify-center">
           <div>
-            <a href="tel:+911234123412">+91-1234123412</a>
+            <a href="tel:+919999999999">+91-99998 98989</a>
           </div>
           <div>
-            <a href="tel:+911234123412">+91-1234123412</a>
+            <a href="tel:+919999999999">+91-99999 99999</a>
           </div>
         </div>
       </div>
-      <div className="w-full p-2 hover:shadow-md flex min-h-[85px] border rounded-lg">
+      <div className="w-full p-2 hover:shadow-md flex min-h-[85px] border rounded-lg bg-white">
         <div className="text-xl flex items-center px-4">
-          <i className="fas fa-map-marker-alt"></i>
+          <BiMap />
         </div>
-        <div className="font-light p-2 flex items-center">
+        <div className="font-light p-2 flex flex-col">
           25th, 3rd Street, Cannaught place, New Delhi
+          <a
+            href="https://www.google.com/maps"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500"
+          >
+            See On Map
+          </a>
         </div>
       </div>
-      <div className="w-full p-2 hover:shadow-md cursor-pointer flex min-h-[85px] border rounded-lg">
+      <div className="w-full p-2 hover:shadow-md cursor-pointer flex min-h-[85px] border rounded-lg bg-white">
         <div className="text-xl flex items-center px-4">
-          <i className="fas fa-envelope"></i>
+          <BiEnvelope />
         </div>
         <div className="font-light p-2 text-center flex items-center">
           <a href="mailto:web@example.com">web@example.com</a>

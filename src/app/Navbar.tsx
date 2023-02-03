@@ -49,15 +49,15 @@ function Navbar() {
           <div className="w-full flex justify-between lg:w-max md:px-0">
             <Link href="#" aria-label="logo">
               <Image
-                src="/logo.svg"
+                src="/logo.png"
                 className="w-36 grayscale dark:contrast-50 contrast-200"
                 alt="tailus logo"
                 width="144"
-                height="68"
+                height="42"
               />
             </Link>
 
-            <div className="flex items-center lg:hidden max-h-10">
+            <div className="flex items-center lg:hidden">
               <label
                 role="button"
                 htmlFor="toggle_nav"
@@ -109,11 +109,11 @@ function Navbar() {
                       <Link href={link.href} className="block lg:px-3 group">
                         <div
                           className={
-                            "relative text-gray-600 before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100 " +
+                            "relative text-gray-600 before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-[#AEAEAE] before:transition before:scale-x-0 group-hover:before:scale-x-100 " +
                             textColor
                           }
                         >
-                          <span className="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300">
+                          <span className="transition group-hover:text-[#AEAEAE] dark:text-[#AEAEAE] dark:group-hover:text-[#AEAEAE]">
                             {link.displayText}
                           </span>
                         </div>

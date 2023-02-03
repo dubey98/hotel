@@ -20,13 +20,8 @@ function AboutUs() {
 
   return (
     <div className="">
-      <div className="h-96 relative z-0">
-        <Image
-          src={heroImg.src}
-          fill
-          alt="hero image"
-          className="object-cover z-0"
-        />
+      <div className="h-96 relative z-0 flex items-center justify-center bg-gradient-to-b from-gray-200 to-gray-50">
+        <h1 className="text-4xl font-semibold uppercase text-center">About your hosts</h1>
       </div>
       <div className="pb-12 -mt-16 z-20">
         <SidePictureQuote />
@@ -34,7 +29,6 @@ function AboutUs() {
       <Mission />
       <ManagementIntro />
       <TeamCards />
-      <Locations />
     </div>
   );
 }

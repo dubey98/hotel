@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-// import { useMediaQuery } from "react-responsive";
-import FullScreenImageModal from "../../components/FullScreenImageModal";
 import images from "../../data/images.json";
 
 const defaultProps = {
@@ -114,101 +112,66 @@ const defaultProps = {
 };
 
 function Gallery({ images, title }) {
-  const isMobile =false // useMediaQuery({ query: "(max-width: 640px)" });
-  const isTablet =false// useMediaQuery({ query: "(max-width: 1024px)" });
-  const isDesktop =true// useMediaQuery({ query: "(max-width: 1280px)" });
-
-  const [imageArray, setImageArray] = useState([]);
-  const [modalActive, setModalActive] = useState(false);
-  const [selectedImage, setSelectedImage] = useState(null);
-
-  useEffect(() => {
-    let cols = isMobile ? 1 : isTablet ? 2 : isDesktop ? 3 : 4;
-    setImageArray(mapImages(images, cols, activateModal));
-  }, [images, isMobile]);
-
-  const activateModal = (image) => {
-    console.log("activate modal called");
-    setModalActive(true);
-    setSelectedImage(image);
-  };
-
-  const handleModalClose = (e) => {
-    setModalActive(false);
-    setSelectedImage(null);
-  };
-
   return (
-    <div>
-      <div className="p-12 text-4xl uppercase text-center font-semibold">
+    <div className="bg-gray-100">
+      <h1 className="p-12 pt-36 text-4xl uppercase text-center font-semibold">
         {title}
-      </div>
-      <div className="max-w-6xl mx-auto gap-2 p-2 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {imageArray}
-      </div>
-      {modalActive && (
-        <FullScreenImageModal
-          closeModal={handleModalClose}
-          images={images}
-          selectedImage={selectedImage}
-        />
-      )}
-    </div>
-  );
-}
-
-function mapImages(images, cols, activateModal) {
-  const imageArray = [];
-  for (let i = 0; i < cols; i++) {
-    imageArray.push([]);
-  }
-  let col = 0;
-  for (let i = 0; i < images.length; i++) {
-    imageArray[col % cols].push(
-      <Image image={images[i]} key={i} activateModal={activateModal} />
-    );
-    col++;
-  }
-  return imageArray.map((singleCol, index) => {
-    return (
-      <div className="space-y-2" key={index}>
-        {singleCol}
-      </div>
-    );
-  });
-}
-
-function Image({ image, activateModal }) {
-  const [overlayActive, setOverlayActive] = useState(false);
-
-  return (
-    <div
-      className="w-full relative"
-      onMouseEnter={() => setOverlayActive(true)}
-      onMouseLeave={() => setOverlayActive(false)}
-      onClick={() => activateModal(image)}
-    >
-      <img
-        className={"rounded-lg z-0"}
-        src={image.src}
-        alt={image.alt}
-        loading={"lazy"}
-      ></img>
-      <div
-        className={
-          "absolute bg-black w-full z-10 top-0 rounded-lg duration-300 transition-all ease-in-out h-full " +
-          (overlayActive ? "visible opacity-50" : "opacity-0 invisible")
-        }
-      ></div>
-      {overlayActive && (
-        <div className="h-full w-full absolute top-0 flex flex-col z-10">
-          <div className="flex-grow flex items-end">
-            <div className="text-xl text-white text-shadow flex-grow p-2">
-              {image.description}
-            </div>
-          </div>
+      </h1>
+      <section className="py-6 text-gray-900">
+        <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
+          <img
+            src="https://source.unsplash.com/random/301x301/"
+            alt=""
+            className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-gray-500 aspect-square"
+          />
+          <img
+            alt=""
+            className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square h-full w-full scale-100 object-cover transition duration-300 hover:scale-[1.4]"
+            src="https://source.unsplash.com/random/200x200/?0"
+          />
+          <img
+            alt=""
+            className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
+            src="https://source.unsplash.com/random/200x200/?1"
+          />
+          <img
+            alt=""
+            className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
+            src="https://source.unsplash.com/random/200x200/?2"
+          />
+          <img
+            alt=""
+            className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
+            src="https://source.unsplash.com/random/200x200/?3"
+          />
+          <img
+            alt=""
+            className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
+            src="https://source.unsplash.com/random/200x200/?4"
+          />
+          <img
+            alt=""
+            className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
+            src="https://source.unsplash.com/random/200x200/?5"
+          />
+          <img
+            alt=""
+            className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
+            src="https://source.unsplash.com/random/200x200/?6"
+          />
+          <img
+            alt=""
+            className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
+            src="https://source.unsplash.com/random/200x200/?7"
+          />
+          <img
+            src="https://source.unsplash.com/random/302x302/"
+            alt=""
+            className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 bg-gray-500 aspect-square"
+          />
         </div>
-      )}
+
+      </section>
     </div>
   );
 }
