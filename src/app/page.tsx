@@ -49,7 +49,7 @@ function HomePage() {
       </section>
       <section className="min-h-screen container mx-auto flex flex-row">
         <div className="hidden lg:flex w-1/2 items-center justify-center">
-          <div className="w-5/6 h-3/4 relative">
+          <div className="w-5/6 h-3/4 relative border-4 border-white drop-shadow-lg">
             <Image src={LobbyImg} alt="about hotel continantal" fill />
           </div>
         </div>

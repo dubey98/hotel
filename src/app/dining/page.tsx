@@ -1,19 +1,13 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
-import Menu from "../../components/restaurant/Menu";
-import menus from "../../data/defaultProps/menus.json";
 import Link from "next/link";
 import heroImg from "../../../public/dine-3.jpg";
 import bfImg from "../../../public/dine-1.jpg";
 import lunchImg from "../../../public/dine-2.jpg";
 
-const defaultProps = {
-  menus: menus,
-};
-
-function Restaurant({ menus }) {
+function Restaurant() {
   useEffect(() => {
     document?.querySelector("body")?.classList.toggle("dark");
 
@@ -99,10 +93,8 @@ function Restaurant({ menus }) {
           </div>
         </div>
       </section>
-      <Menu menus={menus} />
     </div>
   );
 }
 
-Restaurant.defaultProps = defaultProps;
 export default Restaurant;

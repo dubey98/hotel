@@ -37,7 +37,7 @@ function ContactForm() {
         </div>
 
         <div>
-          <button className="w-full rounded-full bg-sky-500 dark:bg-sky-400 h-11 flex items-center justify-center px-6 py-3 transition hover:bg-sky-600 focus:bg-sky-600 active:bg-sky-800">
+          <button className="w-full rounded-full bg-[#AEAEAE] dark:bg-sky-400 h-11 flex items-center justify-center px-6 py-3 transition hover:bg-[#AEAEAE] focus:bg-gray-500 active:bg-sky-800">
             <span className="text-base font-semibold text-white dark:text-gray-900">
               Send Message
             </span>

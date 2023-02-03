@@ -3,6 +3,10 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    loader: "custom",
+    loaderFile: "./src/loader.js",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
