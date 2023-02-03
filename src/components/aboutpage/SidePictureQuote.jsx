@@ -9,7 +9,7 @@ const defaultProps = {
 
 function SidePictureQuote({ quote, author }) {
   return (
-    <div className="max-w-xl mx-auto">
+    <div className="max-w-xl mx-auto relative">
       <div className="p-2 m-2 border-2 flex shadow-lg rounded-xl bg-white">
         <div className="w-28 flex-shrink-0 min-h-[100px]">
           <img

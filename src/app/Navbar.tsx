@@ -37,7 +37,7 @@ function Navbar() {
   const textColor = pathname === "/" ? "lg:text-gray-50" : "lg:text-gray-700";
 
   return (
-    <nav className="absolute w-full">
+    <nav className="absolute w-full z-20">
       <div className="container m-auto px-6 md:px-12 lg:px-7">
         <div className="flex flex-wrap items-center justify-between py-6 gap-6 md:py-4 md:gap-0 relative">
           <input
