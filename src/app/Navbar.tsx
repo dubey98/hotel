@@ -47,7 +47,7 @@ function Navbar() {
             className="peer hidden"
           />
           <div className="w-full flex justify-between lg:w-max md:px-0">
-            <Link href="#" aria-label="logo">
+            <Link href="/" aria-label="logo">
               <Image
                 src="/logo.png"
                 className="w-36 grayscale dark:contrast-50 contrast-200"

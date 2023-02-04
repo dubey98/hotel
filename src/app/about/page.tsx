@@ -1,14 +1,10 @@
 "use client";
 
 import React, { useEffect } from "react";
-import Image from "next/image";
 import TeamCards from "../../components/aboutpage/TeamCards";
 import SidePictureQuote from "../../components/aboutpage/SidePictureQuote";
 import Mission from "../../components/aboutpage/Mission";
 import ManagementIntro from "../../components/aboutpage/ManagementIntro";
-import Locations from "../../components/Locations";
-import images from "../../data/images.json";
-import heroImg from "../../../public/about-hero.jpg";
 
 function AboutUs() {
   useEffect(() => {
@@ -21,7 +17,9 @@ function AboutUs() {
   return (
     <div className="">
       <div className="h-96 relative z-0 flex items-center justify-center bg-gradient-to-b from-gray-200 to-gray-50">
-        <h1 className="text-4xl font-semibold uppercase text-center">About your hosts</h1>
+        <h1 className="text-4xl font-semibold uppercase text-center">
+          About your hosts
+        </h1>
       </div>
       <div className="pb-12 -mt-16 z-20">
         <SidePictureQuote />

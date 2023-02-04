@@ -1,5 +1,6 @@
 import React from "react";
 import images from "./../../data/images.json";
+import Image from "next/image";
 
 const defaultProps = {
   title: "The Team",
@@ -52,8 +53,13 @@ function TeamCard({ item }) {
   return (
     <div className="w-full">
       <div className="w-full p-2 space-y-2 border-2 rounded-lg">
-        <div className="h-72">
-          <img className="h-full w-full object-cover" src={item.image} alt="" />
+        <div className="h-72 relative">
+          <Image
+            className="h-full w-full object-cover"
+            src={item.image}
+            alt=""
+            fill
+          />
         </div>
         <div>
           <div className="text-xl">{item.title}</div>
