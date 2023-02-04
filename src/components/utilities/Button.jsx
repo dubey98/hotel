@@ -6,8 +6,7 @@ function Button({ btnCls, cb, btnText }) {
   };
 
   return (
-    <button className={"p-2 rounded-lg " + btnCls} onClick={handleClick
-    >
+    <button className={"p-2 rounded-lg " + btnCls} onClick={handleClick}>
       {btnText}
     </button>
   );

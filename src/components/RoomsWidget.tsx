@@ -7,7 +7,7 @@ const defaultProps = {
   roomList: roomList,
 };
 
-function RoomsWidget({ title, roomList }) {
+function RoomsWidget({ title: string, roomList }) {
   return (
     <div className="p-4 max-w-5xl mx-auto">
       <div className="text-2xl font-semibold text-center uppercase p-4">

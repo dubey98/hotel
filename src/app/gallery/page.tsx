@@ -10,13 +10,14 @@ function Gallery() {
   const [modalAlt, setModalAlt] = useState("");
   const modal: React.MutableRefObject<HTMLDivElement | null> = useRef(null);
 
-  const closeModal = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (e.target.id) {
+  const closeModal = (e: React.MouseEvent<HTMLElement>) => {
+    console.log(e.currentTarget.id);
+    if ((e.target as any).id) {
       modal?.current?.classList.add("hidden");
     }
   };
 
-  const openModal = (src: string, alt: string, index:number) => {
+  const openModal = (src: string, alt: string, index: number) => {
     setModalImg(src + `?${index}`);
     setModalAlt(alt);
     modal?.current?.classList.remove("hidden");
@@ -71,6 +72,7 @@ function Gallery() {
           className="max-w-[800px] max-h-[600px] object-cover z-50"
           width={301}
           height={301}
+          onClick={closeModal}
           unoptimized
         />
       </div>
